@@ -1,0 +1,8 @@
+# Xamarin Build/test output
+[Bb]in/
+[Oo]bj/
+test-results
+Components/*
+.DS_Store
+
+*.userprefs
