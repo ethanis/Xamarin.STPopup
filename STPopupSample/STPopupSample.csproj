@@ -91,6 +91,9 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="STPopupBinding">
+      <HintPath>..\packages\Xamarin.STPopup.0.0.2\lib\Xamarin.iOS10\STPopupBinding.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcons.appiconset\Contents.json" />
@@ -102,18 +105,13 @@
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="ViewController.cs" />
     <Compile Include="PopupViewController.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\STPopupBinding\STPopupBinding.csproj">
-      <Project>{770F2DD1-AE1A-423C-A8CB-B9AD75B9E21C}</Project>
-      <Name>STPopupBinding</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

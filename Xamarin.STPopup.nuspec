@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Xamarin.STPopup</id>
+    <version>0.0.2</version>
+    <authors>Ethan Dennis</authors>
+    <owners>Etthan Dennis</owners>
+    <licenseUrl>https://github.com/erdennis13/Xamarin.STPopup/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/erdennis13/Xamarin.STPopup</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>STPopup provides STPopupController, which works just like UINavigationController in form sheet/bottom sheet style, for both iPhone and iPad.</description>
+    <releaseNotes>Initial packaging</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Xamarin.iOS Binding STPopup</tags>
+  </metadata>
+  <files>
+      <file src="STPopupBinding/bin/Release/*.dll" target="lib/Xamarin.iOS10"/>
+  </files>
+</package>

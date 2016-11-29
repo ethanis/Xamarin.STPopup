@@ -6,3 +6,5 @@ Components/*
 .DS_Store
 
 *.userprefs
+*.nupkg
+packages/*
