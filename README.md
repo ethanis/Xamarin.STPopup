@@ -25,6 +25,9 @@ public PopupViewController(CGSize size)
 }
 ```
 Full demo can be seen in the sample project.
+
+I also talk about the package on [my blog](http://www.ethandennis.me/2016/11/30/Introducing-Xamarin-STPopup/)
+
 ##Issues##
 + Create an issue
 + Create a PR
